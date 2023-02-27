@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1300px;
+    margin: auto;
+}
+#maincontainer {
+    background: green;
+    
+    
+    
+}
+    header nav {
+       
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+       background: green;
+        position: relative;
+        
+        
+    }
+
+header nav h1 {
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    top: 15px;
+    left: 15px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav ul li {  
+    padding: 0.8rem;
+    margin: 0.5rem;
+    font-weight: bold; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    border: 2px solid black;
+    text-shadow: black ;
+}
+header nav ul li:hover {
+    background: #84C870;
+    color: white;
+} 
+
+header nav ul li ul  {
+    display: block;
+    position: absolute;
+    background: green;
+    color: black;
+    left: 980px;
+    width: 130px;
+    top: 57px;
+    border-radius: 10px;
+    display: none;
+    z-index: 1;
+}
+header nav ul li ul li {
+    width: 80%;
+    
+}
+/* SLİDER */
+.info {
+    display: flex;
+    
+}
+
+.bilgi {
+    display: none;
+    
+}
+section#s-lider h3 {
+    padding: 0px;
+    margin-top:90px ;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 350px;
+    position: relative;
+    left: 100px;
+    text-shadow: 2px 2px 8px green;
+}
+/* section 2 */
+hr {
+    
+    width: 60%;
+    margin:auto;
+    margin-top: 40px;
+}
+
+.proje {
+    display: flex;
+    border: 3px solid rgb(80, 64, 64);
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 0px;
+    background: #84C870;
+    width: 98%;
+}
+.gizli {
+    opacity: 0;
+    
+}
+
+.proje img {
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.proje:hover img {
+    opacity: 1;
+}
+.proje h3 {
+    opacity: 0.5;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.proje:hover h3 {
+    opacity: 1;
+
+}
+body {
+    background: black;
+    position: relative;
+}
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    background: #FCFFA4;
+}
+.projects {
+    margin-top: 40px;
+    background: green;
+}
