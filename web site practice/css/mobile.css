@@ -1,0 +1,23 @@
+#navbar {
+flex-direction: column;
+padding-bottom: 0.5rem;
+padding-top: 0.5rem;
+overflow: hidden;
+height: 80px;
+}
+
+#training .items {
+flex-direction: column;
+
+}
+#training .items .item {
+width: 100%;
+}
+
+.courses .course {
+    flex-direction: column;
+}
+.courses .course:hover {
+    border: 1px solid steelblue;
+    background: #2f2f2f;
+}
