@@ -1,0 +1,42 @@
+.nav-bg {
+    background: #335C9F !important;
+    z-index: 99;
+}
+.hesap-unut {
+    color: #FFFFFE;
+    opacity: 0.5;
+}
+.hesap-unut:hover {
+    color: white !important;
+    opacity: 1;
+    text-decoration: none !important;
+    
+}
+.bolum1 {
+    background: #DFE4F0;
+    padding: 100px;
+}
+.bolum1 h4 {
+    color: #253D53;
+}
+nav {
+    max-height: 110px;
+}
+.giris-btn{
+    background: #3A63A4;
+    color: white;
+   
+}
+.cekbaks {
+    font-size: 23px !important;
+}
+.uyarı {
+    font-size: 15px;
+}
+h2 {
+    font-size: 45px;
+    fontweight: bold !important;
+}
+img {
+    width: 100%;
+}

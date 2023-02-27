@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+.maindiv {
+    display: flex;
+}
+#mainsec {
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    background-color: #EFF2F5;
+    height: 720px;
+}
+.profiles h1 {
+    color: #1977F2;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+}
+.profiles h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 20px;
+    
+}
+.profiles .fp {
+    margin-top: 3px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    opacity: .7;
+
+}
+img {
+    width: 160px;
+    height: 160px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+
+#ac-name {
+font-size: 20px;
+padding: 4px;
+text-align: center;
+margin-bottom: 4px;
+}
+#img-div {
+background-color: #FFFFFF;
+width: 160px;
+border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border: 1px solid #DDDFE2;
+   overflow: hidden;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   height: 200px;
+}
+.profiles {
+    max-width: 536px;
+    height: 536px;
+    padding-right: 250px;
+}
+.account {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 396px;
+    height: 349px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:1px 1px 20px 0.5px #cbcdce ;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+input {
+    width: 364px;
+    margin: 0 auto;
+    margin-top:16px;
+    height: 52px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    border: hidden;
+    border: 1px solid #DDDFE2    }
+    
+    
+    input:nth-child(2){
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+
+#giris {
+    width: 364px;
+    margin: 0 auto;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #2a7deb;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    
+}
+a {
+    position: relative;
+    top: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    left: 140px;
+    text-decoration: none;
+    color: #1977F2;
+}
+#new-ac {
+   
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #3fc225;
+    border-radius: 10px;
+    height: 58px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+
+}
+
+input::placeholder {
+    font-size: 1rem;
+    position: relative;
+    left: 10px;
+    opacity: .8;
+}
+hr {
+    position: relative;
+    top: 5px;
+    width: 87%;
+    margin: auto;
+    opacity: .4;
+}
+.hesap-ekle {
+    background-color: #F5F6F7;
+    width: 160px;
+    border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+       border: 1px solid #DDDFE2;
+       overflow: hidden;
+       border-bottom-left-radius: 5px;
+       border-bottom-right-radius: 5px;
+        margin-left: 17px ;
+
+    }
+.hesap-ekle p {
+    position: relative;
+    top: 160px;
+    right: 7px;
+    text-align: center;
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding:10px;
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    color: #1065d4;
+}
+.photos {
+    display: flex;
+}
+ .point {
+    background-color: #FA3E3E;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    left: 165px;
+    bottom: 5px;
+
+}
+.pointnumb {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    
+}
+.sonyazıı{
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+span {
+    font-weight: bolder;
+}
+
+/* icon */
+.hesap-ekle i {
+    position: relative;
+    left: 37%;
+    bottom: 25px;
+    font-size: 2.6rem; 
+    color: #1A76F2;
+}
+#lgi {
+    font-size: 1.6em;
+    position: relative;
+    top: 3px;
+}
+#cross {
+    position: relative;
+    bottom: 200px;
+    opacity: .6;
+}
+ /* FOOTER*/
+ .hr2 {
+     width: 1100px;
+ }
+    .languages {
+        word-spacing: 0.6rem;
+        opacity: 0.6;
+        margin-top: 1rem;
+        margin-bottom: 0.4rem;
+        font-size: 13.5px;
+        
+    }
+
+ .tickets {
+     word-spacing: 0.6rem;
+     font-size: 14px;
+     opacity: 0.6;
+     margin-top: 1rem;
+     line-height: 1.5rem;
+
+ }
