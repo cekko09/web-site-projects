@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+background: #343334 ;
+
+}
+#menu .navbar {
+background: #343334;
+display: flex;
+justify-content: space-between;
+}
+#menu .navbar .baslık {
+color: #FFE4B6;
+}
+#menu .navbar .baslık h1 {
+margin: 0;
+margin-top: 1rem;
+}
+#menu .navbar .baslık h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#menu .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #242324;
+    padding: 0;
+    height: 3rem;
+    margin-top: 2rem;
+}
+#menu .navbar ul li {
+    padding: 1rem;
+    text-decoration: none;
+    list-style-type: none;   
+}
+#menu .navbar ul li a:hover {
+    color: orange;
+    cursor: pointer;
+}
+#menu .navbar ul li a {
+    text-decoration: none;
+    color: #FFE4B6;
+}
+
+/* main Image section */
+
+#main-image .container2 {
+margin-top: 2rem;
+display: flex;
+flex-direction: column;
+}
+#main-image .container2 img {
+width: 100%;
+max-height: 400px;
+}
+
+/* blogs  */
+#main-image .container2 .items {
+    display: flex;
+    
+}
+
+#main-image .container2 .items .item {
+width: 350px;
+margin-top: 1rem;
+margin-right: 1rem;
+
+
+}
+
+#main-image .container2 .items .item img {
+    height: 220px;
+}
+#main-image .container2 .items .item a {
+    display: inline-block;
+    text-decoration: none;
+    color: #EAAB48;
+    font-size: 1.2rem;
+    font-weight:700; 
+    position: relative;
+    left: 250px;
+}
+
+/* last blog */
+#main-image .last-trip {
+display: flex;
+margin-top: 2rem;
+}
+
+#main-image .last-trip .trip-info {
+width: 50%;
+margin-left: 1rem;
+}
+#main-image .last-trip .trip-info p{
+margin-top: 1.5rem;
+
+}
+#main-image .last-trip .trip-img {
+width: 50%;
+}
+#main-image .last-trip .trip-img img {
+    width: 100%;
+    max-height: 300px;
+}
+#main-image .last-trip .trip-info p span a {
+    display: inline-block;
+    text-decoration: none;
+    color: #EAAB48;
+    font-size: 1.1rem;
+    font-weight:700; 
+}
+#main-image .last-trip .trip-info a {
+    display: inline-block;
+    text-decoration: none;
+    color: #EAAB48;
+    font-size: 1.2rem;
+    font-weight:700; 
+    position: relative;
+    left: 400px;
+}
+
