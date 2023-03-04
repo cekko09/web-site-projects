@@ -1,0 +1,305 @@
+body::before {
+    content: '';
+    background: url(./img/93284789-three-red-hearts-with-stethoscope-on-blue-wooden-background-copy-space-valentines-day-.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+    opacity: 0.3;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.info {
+    top: 0;
+    
+   background: #F7F7F7;
+   border: 1px solid rgb(187, 187, 187,0.5);
+   
+}
+.container1 {
+    max-width: 1400px;
+    margin: auto;
+}
+.info h6 {
+    color: #999999;
+    padding-top: 10px;
+}
+.info p {
+    color: #999999;
+    padding: 10px;
+    padding-left: 4px;
+}
+.info .inf {
+    display:flex;
+}
+.info i {
+    color: #999999;
+    padding:10px ;
+    margin-top: 5px;
+}
+.info .col-3-lg:nth-child(4) {
+    border: none;
+}
+
+
+.info .col-lg-3 {
+    border-right: 1px solid rgb(199, 199, 199);
+    height: 50px;
+    
+    
+}
+
+
+
+
+
+
+
+.menu .container1 {
+    max-width: 1300px !important;
+}
+.menu .navbar-brand{
+    font-size: 40px !important;
+    font-family: 'Yellowtail', cursive;
+    color: #AB9A7E;
+    transition: 0.5s;
+}
+.menu .navbar-brand:hover {
+    opacity: 0.7;
+}
+
+.menu .nav-link {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+.menu .nav-link:hover {
+    color: #AB9A7E;
+    opacity: 1;
+}
+.menu span {
+    color: black;
+}
+
+.menu nav {
+    background: #45404E !important ;
+
+}
+.menu {
+  
+    top: 50px;
+    z-index: 99;
+}
+
+
+
+
+
+.bolum1 {
+    margin-top: 85px; 
+    padding:0 !important;
+    margin: 0;
+    position: relative; 
+    
+    
+}
+.bolum1 .slider {
+    max-width: 1980px;
+    position: relative;
+    height: 500px;
+   
+   
+    
+}
+.bolum1 .resim {
+    width: 100%;
+    display: none;
+    height: 100%;
+    position: relative;
+
+    
+   
+}
+.bolum1 img{
+    width: 100%; 
+    height: 100%;    
+    
+      
+}
+
+.bolum1 li {
+    list-style: none;
+    
+}
+.aktif {
+    display: block !important;
+    
+    animation: fade 1s ease;
+}
+
+
+
+.bolum1 .icinfo p {
+    color: #d6b384;
+    top: 30%;
+   font-size: 800;
+    font-size: 2.2rem;
+    font-family: 'Castoro', serif;
+}
+.bolum1 .resim h3 {
+    
+   
+   
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: 'Castoro', serif;
+}
+.bolum1 .resim button {
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    background: #BFA980;
+    padding:20px ;
+    width: 120px;
+    border-radius:5px ;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    outline: none;
+    
+}
+
+.bolum1 .icinfo {
+    position: relative;
+ top: -60%;
+    
+    text-align: center;
+    
+}
+.bolum1 .resim button:hover {
+    background: #fff;
+    color: black;
+}
+.bolum1 .gecis {
+    padding: 20px;
+    border-radius: 20%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+}
+.bolum1 .geri {
+    top: 50%;
+    
+}
+.bolum1 .ileri{
+    top: 50%;
+    right: 0;
+    
+}
+
+@media screen and (max-width:633px) {
+    .bolum1 .icinfo {
+        top: -65%;
+    }
+}
+
+@keyframes fade {
+    0% {opacity: 0.2;}
+
+    100% {opacity: 1;}
+}
+
+
+
+
+
+.bolum2  {
+    background: rgba(255, 255, 255, 0.9);
+    min-width: 300px;
+    min-height: 700px;
+    
+
+}
+
+
+.bolum2 .card {
+    margin-top: 80px !important;
+   margin-bottom: 80px !important;
+   opacity: 1;
+   transition: 0.5s;
+   
+  
+   
+
+}
+.bolum2 .card:hover {
+    opacity: 1;
+    width: 25rem !important;
+  
+}
+.bolum2 .card .card-title {
+    font-size: 2rem;
+    font-size: 800 !important;
+    color: #D6B284;
+    letter-spacing: 2px;
+}
+.bolum2 .card .card-text {
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: rgb(110, 110, 110);
+}
+.bolum2 .card img {
+    height: 300px;
+    width: 100%;
+}
+
+.bolum3 {
+    text-align: center;     
+min-height: 500px;
+
+}
+.bolum3 .col-lg-6 {
+    height: 100%;
+}
+.bolum3 p {
+    letter-spacing: 1px;
+    line-height: 40px;
+    
+}
+.bolum3 h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.bolum3 hr {
+    margin-bottom: 50px;
+    border: 1px solid rgb(107, 107, 107);
+}
+
+footer {
+    background: black;
+}
+
+
+footer  p {
+    color: #fff !important;
+    margin: 50px 0 50px 0 ;
+}
+footer i {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 50px 0 50px 0 ;
+    cursor: pointer;
+}
