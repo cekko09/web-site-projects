@@ -1,0 +1,377 @@
+*{ 
+    margin: 0 !;
+    padding: 0 ;
+    box-sizing: border-box;
+    
+}
+#asd {
+    position: absolute;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+}
+.bar1 {
+    background-color: #1C1C2B !important;
+   
+}
+body {
+    position: relative;
+}
+i {
+    color: #fff;
+    font-size: 1rem;
+   margin-right: 20px;
+   padding: 5px;
+}
+div.container1 {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: end;    
+   
+
+}
+
+header {
+    top: 20px;
+    position: fixed !important;
+    z-index: 99 !important;
+    background-color: #fff;
+    
+}
+nav {
+    height: 90px;
+    padding: 0 !important;
+    
+   
+}
+
+.brand {
+    background: url("./Genç-Yazılımcı-»-Kendin-için-değil-ülken-için-yaz.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li.nav-item {
+    margin: 20px !important;
+    font-weight: 700;
+   
+}
+nav a:hover {
+    color: #808080 !important;
+}
+.nav-link{
+    color: black !important;
+    font-size: 0.9rem;
+}
+hr {
+    margin: 0;
+}
+.search-icon {
+    color: black;
+    padding: 10px;
+    background-color:#DBDBDB ;
+    border-radius: 50%;
+}
+.kapsayici {
+    max-width: 1100px;
+    margin: auto;
+}
+#bolum1 {
+    margin-top: 140px !important;
+   
+    
+}
+.kapsa {
+    max-width: 1400px;
+    margin: auto;
+  
+    
+   
+}
+
+
+
+
+.back .texts1 {
+    position: absolute !important;
+    top: 30%;
+    left: 10%;
+    max-width: 300px ;
+}
+
+.back h3{
+    color: #fff;
+    padding: 1px 10px 2px 10px;
+    background-color: red;
+    display: inline-block;
+    border-radius:30px ;
+    font-size: 1rem;
+    font-weight: bold;
+transition: 0.4s;
+cursor: pointer;
+text-align: center;
+}
+.back h3:hover{
+    background-color: #232323;
+    
+
+}
+.back img {
+    filter: brightness(75%);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.4s;
+ 
+}
+.back:hover img {
+    filter: brightness(35%);
+    
+ 
+}
+.back p {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+  
+}
+.kapsaRow {
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+}
+
+
+
+.texts {
+    position: absolute !important;
+    
+    top: 40%;
+    left: 15%;
+    max-width: 200px ;
+    height: 20px;
+}
+.texts h3{
+    color: #fff;
+    padding: 1px 10px 2px 10px;
+    background-color: red;
+    display: inline-block;
+    border-radius:30px ;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-bottom: 10px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.texts h3:hover{
+    background-color: #232323;
+    
+
+}
+.texts p {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+
+.texts:hover img {
+    filter: brightness(35%);
+    
+ 
+}
+
+.second-image .img1 {
+margin-bottom: 10px !important;
+}
+.second-image .img-size4 {
+margin-bottom: 20px;
+padding-bottom: 10px;
+}
+.bolum2 img {
+    filter: brightness(100%);
+}
+
+.kapsayici2 {
+    max-width: 1100px !important;
+    margin: auto;
+}
+.b2-div-size {
+  margin-bottom: 0 !important;
+}
+.img-size img {
+  
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.info {
+    padding: 20px 30px 20px 30px;
+height: auto;
+}
+
+.info h4 {
+    color: #fff;
+    padding: 1px 10px 2px 10px;
+    background-color: red;
+    display: inline-block;
+    border-radius:30px ;
+    font-size: 1rem;
+    font-weight: bold;
+transition: 0.4s;
+cursor: pointer;
+text-align: center;
+
+}
+.bolum2 .col-md-12 {
+    height: auto !important;
+}
+.info h4:hover{
+    background-color: #232323;
+    
+
+}
+.info p {
+    font-size: 1.4rem;
+    font-weight: 650;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+.info p:hover {
+    color: #DD3233;
+}
+
+.b2-div2.size {
+    margin: 30px !important;
+    max-width: 300px !important;
+    
+}
+.btn-ara {
+    background-color: #DD3233;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding: 0px 40px 0px 40px;
+font-weight: bold ;
+letter-spacing: 1px;
+text-align: center;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+.btn-ara p {
+    opacity: 0.9;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+.ara {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid  rgb(0, 0, 0,0.1);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+form {
+    height: 50px;
+    margin-bottom: 50px;
+}
+.reklam {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+.reklam img {
+    width: 100%;
+    height: 100%;
+}
+.kategori {
+    display: flex;
+    flex-direction: column;
+}
+.kategori a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    margin-bottom: 10px;
+}
+.kategoriler hr {
+    margin-bottom: 20px;
+}
+.kategoriler h6 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.k {
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 1.2rem;
+}
+.k:hover {
+    color: #DD3233;
+}
+
+.yukari {
+    position: absolute;
+    right: 0;
+    bottom: 61px ;
+    padding: 10px 10px 10px 10px;
+    background-color: #ebe7e7;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 20px;
+    margin: 0;
+    margin-right: 20px;
+    cursor: pointer;
+    position: fixed;
+}
+.yukari:hover {
+    background: #B5B5B5;
+}
+#footer {
+    background: #1E1E1E;
+    padding: 20px;
+}
+#footer p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bolum2 .col-md-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+        background-color: #fff;
+        margin-top: 20px;
+        border-bottom-right-radius: 10px ;
+        border-bottom-left-radius: 10px ;
+    }
+    .search-icon {
+       display: none;
+    }
+}
