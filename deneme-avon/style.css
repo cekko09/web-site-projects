@@ -1,0 +1,440 @@
+
+
+#header {
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+    top: 0;
+}
+.nav-link {
+    color:rgb(65, 64, 64,0.8) ;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color:#72C826 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+#bolum1 {
+    margin-top: 80px;
+}
+.bolum1  {
+    background: url("imgs/Adsız.png");
+    background-position: center center;
+    background-size: cover;
+    color: white;
+  
+    
+}
+#bolum1 .info {
+    max-width: 600px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#bolum1 h1  {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#bolum1 h3  {
+    font-size: 2rem;
+    
+    margin-bottom: 10px;
+}
+
+#bolum1 p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+#bolum1 .uye-ol {
+    background-color: #F0EE22;
+ border: none;
+ border-radius: 5px;
+ padding: 7px 20px 7px 20px !important;
+text-align: center;
+}
+#bolum1 .uye-ol a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+   
+font-weight: bold;
+}
+#bolum1 .uye-ol:hover {
+    background-color: white;
+    transition: .2s;
+
+}
+#bolum1 .iletisim-btn {
+     border: 1px solid white;
+     border-radius: 5px;
+     background-color: transparent;
+ padding: 7px 20px 7px 20px !important;
+
+}
+#bolum1 .iletisim-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+   
+font-weight: bold;
+}
+#bolum1 .iletisim-btn:hover {
+    background-color: black;
+    transition: .2s;
+
+}
+
+
+
+
+#bolum2 {
+    background-color: white;
+    margin-bottom: 80px;
+}
+#bolum2 h6 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+#bolum2 span {
+    color:#C80D5F ;
+}
+
+#bolum2 p {
+    font-size: 1.3rem;
+}
+#bolum2 .form-container {
+    max-width: 700px;
+    margin: auto !important;
+    background-color:  #F2F5F2;
+    padding: 50px;
+    border-radius: 20px;
+}
+#bolum2 .uyeligi-tamamla {
+    background-color: #F0EE22;
+ border: none;
+ border-radius: 5px;
+ padding: 7px 20px 7px 20px !important;
+text-align: center;
+text-decoration: none;
+color: black;
+font-size: 1.4rem;
+
+font-weight: bold;
+}
+#bolum2 .uyeligi-tamamla:hover {
+    background-color: white;
+    transition: .2s;
+
+}
+
+
+
+
+#bolum3{
+    background-color: #1F2C3A;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+#bolum3 .bolum3-heads {
+    color: white;
+    margin-bottom: 40px;
+}
+#bolum3 .bolum3-heads p{
+    font-size: 1.2rem;
+}
+#bolum3 .card {
+    border: none;
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+    
+}
+#bolum3 .card i {
+    border: none;
+    color:#6EC832 ;
+    font-size: 3rem;
+    
+}
+#bolum3 .card .card-title {
+    
+    color: #6EC832;
+
+
+}
+#bolum3 .card .card-text {
+    
+    color: #fff;
+
+
+}
+
+hr {
+    color: white;
+    margin-bottom: 80px;
+}
+
+#bolum3 .uye-yonlendir {
+    background-color: #F0EE22;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px 7px 20px !important;
+   text-align: center;
+}
+#bolum3   a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+   
+font-weight: bold;
+}
+#bolum3 .uye-yonlendir:hover{
+    background-color: white;
+    transition: .2s;
+
+}
+
+
+
+
+
+#bolum4 {
+    background-color: white;
+    color: white;
+    padding: 50px;
+}
+#bolum4 h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #56911C;
+}
+#bolum4 .div-hr {
+    max-width: 25%;
+    height: 2px;
+    background-color: #56911C;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#bolum4 .hakkimda-aciklama {
+    text-align: left;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    color: #56911C;
+    
+}
+#bolum4 .uye-yonlendir {
+    background-color: #F0EE22;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px 7px 20px !important;
+   text-align: center;
+   padding: 0px;
+}
+#bolum4   a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+   
+font-weight: bold;
+}
+#bolum4 .uye-yonlendir:hover{
+    background-color: white;
+    transition: .2s;
+
+}
+
+
+
+
+
+#bolum5 {
+    background-color: #56911C;
+    padding: 80px 0 80px 0;
+}
+#bolum5 img {
+    width: 100%;
+}
+#bolum5 h2 {
+    color: white;
+    font-size: 2.3rem;
+}
+#bolum5 .kazanc-heads {
+    padding: 10px;
+}
+#bolum5 .kazanc-heads p {
+    color: white;
+    font-size: 1.5rem;
+}
+#bolum5 .img-info5 {
+    color: white;
+}
+#bolum5 .img-info5 h6 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#bolum5 .img-info5 p {
+    font-size: 1.3rem;
+    text-align: left;
+    padding: 10px;
+}
+#bolum5 .space5 {
+    height: 50px;
+}
+#bolum5 .uye-yonlendir {
+    background-color: #F0EE22;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px 7px 20px !important;
+   text-align: center;
+}
+#bolum5   a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+   
+font-weight: bold;
+}
+#bolum5 .uye-yonlendir:hover{
+    background-color: white;
+    transition: .2s;
+
+}
+
+
+
+
+#bolum6 {
+    padding-bottom: 80px;
+}
+#bolum6 .soru-heads h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#bolum6 .soru-heads p {
+    color: rgb(0, 0, 0,0.5) !important;
+
+    margin-bottom: 30px;
+}
+
+#bolum6 .text-start p {
+    color: rgb(0, 0, 0,0.5) !important;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#bolum6 hr {
+    color: unset;
+    opacity: 0.1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#bolum6 .uye-yonlendir {
+    background-color: #F0EE22;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px 7px 20px !important;
+   text-align: center;
+}
+#bolum6   a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+   
+font-weight: bold;
+}
+#bolum6 .uye-yonlendir:hover{
+    background-color: white;
+    transition: .2s;
+
+}
+
+#footer {
+    background: url("imgs/footer.png");
+    background-position: center center;
+    background-size: cover;
+}
+.footer {
+    padding: 80px;
+}
+
+.footer p {
+    color: grey;
+    font-size: 1.3rem;
+    text-align: left;
+    
+} 
+footer ul li {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 10px;
+}
+footer li a {
+    text-decoration: none;
+    color: grey;    
+}
+footer li a:hover {
+    text-decoration: none;
+    color: rgb(128, 128, 128,0.5);    
+}
+
+
+
+
+footer .uye-yonlendir {
+    background-color: #F0EE22;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px 7px 20px !important;
+   text-align: center;
+   margin-top: 10px;
+   
+}
+footer   a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+   
+font-weight: bold;
+}
+footer .uye-yonlendir:hover{
+    background-color: white;
+    transition: .2s;
+
+}
+
+.scrollUp {
+    padding: 10px 15px 10px 15px;
+    background-color: #6EC832;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #6EC832;
+    transition: 0.3s;
+}
+.scrollUp i {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.scrollUp:hover{
+    background-color: white;
+}
+.scrollUp:hover  i{
+    color: #6EC832;
+}
