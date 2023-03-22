@@ -1,0 +1,66 @@
+a {
+    text-decoration: none;
+    
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+
+img{
+    width: 100%;
+    height:100%;
+    
+}
+.ana-img {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ana-img .ana-img-yazı {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.ana-img-yazı h3 {
+    font-size:4em;
+}
+.ana-img-yazı h5 {
+    font-size: 2em;
+}
+.kucuk-img {
+width: 60vh;
+height:20vh;
+margin: 5px;
+}
+.buyuk-img {
+    width: 60vh;
+height:41vh;
+margin: 5px;
+}
+#bolum2 {
+    margin: 0px;
+}
+
+
+#bolum3 {
+    background: #F8F9FA;
+    margin: 0px;
+}
+
+.bloglar {
+    border-right: 1px solid #AEAEAE;
+    border-left: 1px solid #AEAEAE;
+
+}
+.media {
+    margin: 10px;
+    
+}
