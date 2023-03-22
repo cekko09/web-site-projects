@@ -1,0 +1,15 @@
+RewriteEngine on
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^anasayfa$ index.php [NC,L]
+
+
+RewriteRule ^urunler-([0-9a-zA-Z-_]+)-([0-9]+)$  urunler.php?sef=$1&id=$2 [L,QSA]
+RewriteRule ^urun-detay-([0-9a-zA-Z-_]+)-([0-9]+)$  urun-detay.php?sef=$1&id=$2 [L,QSA]
+
+
+#ErrorDocument 404 https://yazilimyolcusu.com
