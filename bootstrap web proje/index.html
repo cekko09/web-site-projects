@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./jqueryui/jquery-ui.min.css">
+  
+    
+</head>
+
+<body>
+    <!-- Bolum 1 baslangıc -->
+    <section class="container-fluid bolum1">
+        <div class="koyu"></div>
+        <div class="container">
+            <!-- navigasyon baslangıc -->
+            <nav class="navbar navbar-expand-md navbar-dark ">
+                <a class="navbar-brand" href="#"><span class="text-warning">AUTO</span> <span>ROAD</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Car</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </nav>
+            <!-- navigasyon bitiş -->
+            <div class="row">
+                <div class="col-md-6 text-white p-0 py-4 solicerik">
+                    <h2 class="display-4">Now <br> it's easy for you rent a car</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex voluptatum saepe nulla quos
+                        adipisci, vitae dolor fugit obcaecati cupiditate, neque praesentium placeat quibusdam dicta
+                        debitis autem nisi numquam omnis repellat? Quas officiis quidem molestias fuga ad velit
+                        explicabo aliquam consequatur magnam, labore ea illum nostrum illo adipisci quod ab!</p>
+
+                </div>
+                <div class="col-md-4 offset-2 bg-white sagicerik">
+                    <form action="" class="form-header">
+                        <h2>Make your trip</h3>
+                            <div class="form-group">
+                                <label for="">PİCK-UP YOUR LOCATION</label>
+                                <input type="text" class="form-control" placeholder="City-airport-etc">
+
+
+                            </div>
+                            <div class="d-flex ">
+                                <div class="pr-3 form-group flex-grow-1"><label for="">PİCK-UP DATE</label>
+                                    <input type="text" id="pick-date" placeholder="date" class="form-control">
+
+                                </div>
+                                <div class="pl-3 form-group flex-grow-1"><label for="">PİCK-OFF DATE</label>
+                                    <input type="text" class="form-control" id="book-off" placeholder="date">
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">PICK-UP TIME</label>
+                                <input type="text" placeholder="time"id="tarih3" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit"  class="btn btn-primary w-100" value="SEARCH VEHİCLE">
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bolum1 son -->
+    <!-- bolum2 baslangıc -->
+    <section class="container bolum2">
+        <form action="#">
+            <div class="row">
+                <div class="col-lg ">
+                    <div class="form-group">
+                        <label for="">Model select</label>
+                        <select name="" id="" class="form-control">
+                            <option value="1">Model 1</option>
+                            <option value="2">Model 2</option>
+                            <option value="3">Model 3</option>
+                            <option value="4">Model 4</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="col-lg">
+                    <div class="form-group">
+                        <label for="">Select Brand</label>
+                        <select name="" id="" class="form-control">
+                            <option value="1">Model 1</option>
+                            <option value="2">Model 2</option>
+                            <option value="3">Model 3</option>
+                            <option value="4">Model 4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg ">
+                    <div class="form-group">
+                        <label for="">Year Model</label>
+                        <select name="" id="" class="form-control">
+                            <option value="1">Model 1</option>
+                            <option value="2">Model 2</option>
+                            <option value="3">Model 3</option>
+                            <option value="4">Model 4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="form-group">
+                        <label for="">Price limit</label>
+                        <select name="" id="" class="form-control">
+                            <option value="1">Model 1</option>
+                            <option value="2">Model 2</option>
+                            <option value="3">Model 3</option>
+                            <option value="4">Model 4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg ">
+                    <div class="form-group">
+                        <input type="submit" class="form-control btn  btn-primary">
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+
+
+    </section>
+    <!-- bolum 2 son -->
+    <!-- bolum3 baslangıc -->
+    <section class="container bolum3">
+        <p>OUR SERVİCES</p>
+        <h3>Our Services</h3>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="d-flex">
+                    <i class="fas fa-tools"></i>
+                    <h4>7/24 Car Support</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquid volupt et odio?</p>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="d-flex">
+                    <i class="fas fa-tools"></i>
+                    <h4>7/24 Car Support</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquid voluptatum et odio?</p>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="d-flex">
+                    <i class="fas fa-tools"></i>
+                    <h4>7/24 Car Support</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquid voluptatum et odio?</p>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="d-flex">
+                    <i class="fas fa-tools"></i>
+                    <h4>7/24 Car Support</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquid voluptatum . Ducimus, et
+                    odio?</p>
+            </div>
+        </div>
+    </section>
+    <!-- bolum3 sonu -->
+    <!-- bolum4 baslangıc -->
+    <section class="bolum4 container-fluid">
+        <p>WHAT WE OFFER</p>
+        <h3>Choose Your Car</h3>
+        <div class="row p-4">
+            <div class="col-lg-3 col-md-6 mb-3 ">
+                <div class="etiket">
+                    <div class="resım d-flex justify-content-start align-items-end"
+                        style="background: url(./images/car-1.jpg);">
+                        <div class="fiyat shadow-lg">
+                            <span class="fıyat"> $30</span>
+                            <p class="from-day">
+                                <span>from</span> <br>
+                                <span>/day</span>
+                            </p>
+                        </div>
+                    </div>
+                    <h5>Mercedes Grand Sedan</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, distinctio!</p>
+                    <div class="d-flex butonlar">
+                        <button class="btn">Book Now</button>
+                        <button class="btn">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3 ">
+                <div class="etiket">
+                    <div class="resım d-flex justify-content-start align-items-end"
+                        style="background: url(./images/car-1.jpg);">
+                        <div class="fiyat shadow-lg">
+                            <span class="fıyat"> $30</span>
+                            <p class="from-day">
+                                <span>from</span> <br>
+                                <span>/day</span>
+                            </p>
+                        </div>
+                    </div>
+                    <h5>Mercedes Grand Sedan</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, distinctio!</p>
+                    <div class="d-flex butonlar">
+                        <button class="btn">Book Now</button>
+                        <button class="btn">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3 ">
+                <div class="etiket">
+                    <div class="resım d-flex justify-content-start align-items-end"
+                        style="background: url(./images/car-1.jpg);">
+                        <div class="fiyat shadow-lg">
+                            <span class="fıyat"> $30</span>
+                            <p class="from-day">
+                                <span>from</span> <br>
+                                <span>/day</span>
+                            </p>
+                        </div>
+                    </div>
+                    <h5>Mercedes Grand Sedan</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, distinctio!</p>
+                    <div class="d-flex butonlar">
+                        <button class="btn">Book Now</button>
+                        <button class="btn">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3 ">
+                <div class="etiket">
+                    <div class="resım d-flex justify-content-start align-items-end"
+                        style="background: url(./images/car-1.jpg);">
+                        <div class="fiyat shadow-lg">
+                            <span class="fıyat"> $30</span>
+                            <p class="from-day">
+                                <span>from</span> <br>
+                                <span>/day</span>
+                            </p>
+                        </div>
+                    </div>
+                    <h5>Mercedes Grand Sedan</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, distinctio!</p>
+                    <div class="d-flex butonlar">
+                        <button class="btn">Book Now</button>
+                        <button class="btn">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3 ">
+                <div class="etiket">
+                    <div class="resım d-flex justify-content-start align-items-end"
+                        style="background: url(./images/car-1.jpg);">
+                        <div class="fiyat shadow-lg">
+                            <span class="fıyat"> $30</span>
+                            <p class="from-day">
+                                <span>from</span> <br>
+                                <span>/day</span>
+                            </p>
+                        </div>
+                    </div>
+                    <h5>Mercedes Grand Sedan</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, distinctio!</p>
+                    <div class="d-flex butonlar">
+                        <button class="btn">Book Now</button>
+                        <button class="btn">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3 ">
+                <div class="etiket">
+                    <div class="resım d-flex justify-content-start align-items-end"
+                        style="background: url(./images/car-1.jpg);">
+                        <div class="fiyat shadow-lg">
+                            <span class="fıyat"> $30</span>
+                            <p class="from-day">
+                                <span>from</span> <br>
+                                <span>/day</span>
+                            </p>
+                        </div>
+                    </div>
+                    <h5>Mercedes Grand Sedan</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, distinctio!</p>
+                    <div class="d-flex butonlar">
+                        <button class="btn">Book Now</button>
+                        <button class="btn">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3 ">
+                <div class="etiket">
+                    <div class="resım d-flex justify-content-start align-items-end"
+                        style="background: url(./images/car-1.jpg);">
+                        <div class="fiyat shadow-lg">
+                            <span class="fıyat"> $30</span>
+                            <p class="from-day">
+                                <span>from</span> <br>
+                                <span>/day</span>
+                            </p>
+                        </div>
+                    </div>
+                    <h5>Mercedes Grand Sedan</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, distinctio!</p>
+                    <div class="d-flex butonlar">
+                        <button class="btn">Book Now</button>
+                        <button class="btn">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3 ">
+                <div class="etiket">
+                    <div class="resım d-flex justify-content-start align-items-end"
+                        style="background: url(./images/car-1.jpg);">
+                        <div class="fiyat shadow-lg">
+                            <span class="fıyat"> $30</span>
+                            <p class="from-day">
+                                <span>from</span> <br>
+                                <span>/day</span>
+                            </p>
+                        </div>
+                    </div>
+                    <h5>Mercedes Grand Sedan</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, distinctio!</p>
+                    <div class="d-flex butonlar">
+                        <button class="btn">Book Now</button>
+                        <button class="btn">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- bolum4 sonu -->
+    <!-- bolum5 baslangıc -->
+    <section class="container-fluid bolum5 ">
+        <div class="koyu"></div>
+        <div class="container">
+            <p>WORK FLOW</p>
+            <h2>How it Works</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="icerik">
+                        <div class="sembol"> <i class="fas fa-route"></i></div>
+                        <h3>Pick Destination</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, porro. In inventore est
+                            aliquid quo?</p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="icerik">
+                        <div class="sembol"> <i class="fas fa-route"></i></div>
+                        <h3>Pick Destination</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, porro. In inventore est
+                            aliquid quo?</p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="icerik">
+                        <div class="sembol"> <i class="fas fa-route"></i></div>
+                        <h3>Pick Destination</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, porro. In inventore est
+                            aliquid quo?</p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="icerik">
+                        <div class="sembol"> <i class="fas fa-route"></i></div>
+                        <h3>Pick Destination</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, porro. In inventore est
+                            aliquid quo?</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- bolum5 sonu-->
+    <!-- bolum6 baslangıc -->
+    <section class="container bolum6">
+        <p>TESTIMONIAL</p>
+        <h2>Happy Clients</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card d-block p-3 shadow">
+                    <img src="./images/person_1.jpg" alt="">
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, provident voluptates. Cumque
+                            omnis
+                        </p>
+                        <h5>Roger Scott</h5>
+                        <span>Market Manager</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card d-block p-3 shadow">
+                    <img src="./images/person_1.jpg" alt="">
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, provident voluptates. Cumque
+                            omnis
+                        </p>
+                        <h5>Roger Scott</h5>
+                        <span>Market Manager</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card d-block p-3 shadow">
+                    <img src="./images/person_1.jpg" alt="">
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, provident voluptates. Cumque
+                            omnis
+                        </p>
+                        <h5>Roger Scott</h5>
+                        <span>Market Manager</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bolum6 sonu -->
+    <!-- bolum7 baslangıc -->
+    <section class="container bolum7">
+        <div class="row">
+            <div class="col-md-6 about" style="background: url(./images/about.jpg);"></div>
+            <article class="col-md-6">
+                <div class="baslık">
+                    <p>ABOUT US</p>
+                    <h3>Choose A Perfect Car</h3>
+                </div>
+                <p class="icerik">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos libero officia iure quam beatae
+                    repudiandae explicabo dolore quibusdam recusandae atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero magni nam optio laudantium sint, ratione provident sit officia molestiae minima.</p>
+                <p class="icerik">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolor labore quod animi debitis,
+                    architecto delectus eligendi reprehenderit? Temporibus, cumque libero nihil obcaecati amet sunt sed
+                    rem unde? Blanditiis, ex numquam esse, facilis atque itaque debitis aliquid voluptatum minus fugit
+                    deserunt. Non, autem! Accusamus error possimus deleniti consectetur animi vero? Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Vero aliquam dignissimos in suscipit voluptates commodi
+                    pariatur odit. Ab nesciunt pariatur minima porro, dignissimos dolorem dolore fugiat, vel quae
+                    repellat, corporis commodi sapiente voluptates. Recusandae nihil omnis, rerum nisi corporis enim
+                    laudantium. Saepe voluptates fuga ipsa nobis ipsum ut voluptatibus quos tempora, delectus commodi
+                    ipsam soluta. Nostrum ipsam, iusto expedita nemo quidem, beatae ab velit adipisci aliquid corrupti,
+                    eligendi sequi ullam!</p>
+                    <button class="btn">Search Vehicle</button>
+            </article>
+        </div>
+    </section>
+    <!-- bolum7 sonu -->
+
+    <!-- bolum8 baslangıc -->
+
+        <footer class="container-fluid bolum8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>About Autoroad</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta similique neque tenetur magnam non eveniet.</p>
+                       <ul class="sosyalmedya">
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>About Autoroad</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta similique neque tenetur magnam non eveniet.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>About Autoroad</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta similique neque tenetur magnam non eveniet.</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h3>About Autoroad</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta similique neque tenetur magnam non eveniet.</p>
+                                </div>
+                </div>
+            </div>
+        </footer>
+        <!-- bolum8 sonu -->
+        <!-- JAVASCRİPT -->
+
+
+<script>
+    $(document).ready(function(){
+        $("#pick-date, #book-off, #tarih3 ").datepicker();
+
+	$(window).scroll(function(){
+		$('.bolum2, .bolum3, .bolum4, .bolum5, .bolum6, .bolum7, footer').each(function(){
+			var ustKenar = $(this).offset().top;
+			var pencereAlt = $(window).scrollTop()+$(window).height();
+			if(pencereAlt > ustKenar){
+				$(this).animate({'opacity':'1'},1000);
+			}
+		})
+	})
+});
+</script>
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+        <script src="./jqueryui/jquery-ui.js"></script>
+     
+        
+        
+
+</body>
+
+</html>
