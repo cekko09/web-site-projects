@@ -1,0 +1,156 @@
+body {
+    font-family: 'Lato' , sans-serif;
+}
+
+.menu {
+    background-color: black;
+   position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+nav {
+    display: flex;
+    justify-content: space-between ;
+    
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #e5474b !important;
+    font-size: 30px !important;
+    transition: 0.5s;
+}
+.navbar-brand:hover {
+
+    color: #641618 !important;
+
+}
+.navbar ul li a {
+    color: white !important;
+    font-size: 14px !important;
+    margin-right:10px ;
+    transition: 0.5s;
+}
+.navbar ul li a:hover {
+    opacity: 0.7;
+}
+.navbar button span i {
+    color: white !important;
+}
+
+
+.banner {
+    height: 100vh;
+    background: url(./images/banner.jpg);
+    
+   background-position: 0px 70px !important;
+   background-size: cover;
+}
+.banner .icerik2 h2 {
+    font-size: 3rem !important;
+    color: rgb(233, 222, 222);
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 50px;
+}
+.banner .icerik2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.banner .icerik2 a {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.bolum1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bolum1 h2 {
+    color: #e5474b;
+    font-size: 28px;
+    margin-bottom: 30px;
+
+}
+.bolum1 p{
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+.bolum1 a {
+    color: #e5475b;
+    font-weight: 300;
+    font-size: 14px;
+border-radius: 3px;
+}
+
+
+
+.bolum2 {
+    margin-bottom: 80px;
+}
+.bolum2 .col-md:nth-child(1){
+    background-color: #F1EFF1;
+}
+.bolum2 .col-md:nth-child(2){
+
+    
+    background-color: #E5E4E5;
+
+}
+.bolum2 .col-md {
+    padding: 40px;
+   
+}
+.bolum2 .col-md h3{
+    color: #FF4A56;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.bolum2 .col-md p {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.bolum2 .col-md img {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+.bolum3 {
+    margin-bottom: 80px;
+}
+.bolum3 .card {
+    border: none !important;
+}
+.bolum3  i {
+font-size: 2.4rem ;
+padding: 40px;
+text-align: center;
+color: #ADAAAC;
+} 
+.bolum3 h5 {
+    color: #FB5C55 !important;
+    text-align: center !important;
+    font-weight: 700 !important;
+}
+.bolum3 p {
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-align: justify;
+}
+.bolum3 .a { display: flex;
+    justify-content: center;
+
+
+ 
+}
+
+
+

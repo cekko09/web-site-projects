@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open-Sans",sans-serif;
+}
+
+
+.banner .slide img {
+    height: 100vh;
+}.banner .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto !important;
+    max-width: 600px;
+    margin: auto;
+
+}
+.banner .carousel-caption span  {
+    font-size: 20px;
+
+}
+.banner .carousel-caption h5 {
+    font-size: 46px;
+font-weight: 700;
+}
+.banner .carousel-caption p {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.banner .carousel-caption a {
+    font-size: 26px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:1292px) {
+    .banner .slide img {
+        height: 70vh;
+    }
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    max-width: 1200px !important;
+}
+.navbar-brand {
+    font-family: 'Norican', cursive;
+    font-size: 3rem !important;
+
+}
+.navbar a {
+    font-size: 17px;
+    color: white;
+    margin-right: 10px;
+    
+}
+.navbar a:hover {
+    opacity: 0.6 !important;
+    color: white;
+}
+.active {
+    background: #f7f7f7;
+    color: #121212 !important;
+}
+.black {
+    color: black !important;
+}
+
+@media screen and (max-width:992px) {
+    .menu {
+        background: #f7f7f7 !important;
+        
+    }
+    .navbar a {
+        color: black;
+    }
+}
+
+
+.bolum1 {
+    background: #f2f2f2;
+padding-top: 80px;
+padding-bottom: 80px;
+text-align: center;
+}
+.bolum1 h3 {
+font-size: 20px;
+margin-bottom: 50px;
+color: #121212;
+font-weight: 700;
+
+}
+.bolum1 hr {
+    width: 80px;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    position: relative;
+    bottom: 40px;
+
+}
+
+.bolum1 i {
+    color: #008000;
+    font-size: 2rem;
+    margin: 30px;
+
+}
+.bolum1 h6 {
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 20px;
+
+}
+.bolum1 p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.bolum1  .icerik:hover {
+    background-color: #008000;
+    color: white;
+}
+.bolum1  .icerik:hover i {
+    color: white;
+}
+
+.bolum1 .icerik {
+    padding:17px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+.bolum2{
+background: url(./img4/what-we-do-bg.png);
+background-size: cover;
+padding: 80px 0;
+
+}
+
+.bolum2 h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.bolum2 p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.bolum2 .btn {
+    border-radius: 10px !important;
+    margin-right: 15px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.bolum2 img {
+    width: 100%;
+}
+
+
+
+.bolum3 {
+    background: #f2f2f2;
+    padding: 80px 0;
+}
+.bolum3 hr {
+    width: 130px;
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    position: relative;
+    
+
+}
+.bolum3 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #121212;
+}
+.bolum3 a {
+    color: #5a5a5a !important;
+}
+.bolum3 .active {
+    color: #6e8a0a !important;
+    background: #f2f2f2;
+}
+.bolum3 img {
+    width: 100%;
+    height: 100%;
+}
+.bolum3 .icerik {
+    margin-top: 20px;
+}
+
+.bolum3 .kapsayıcı {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 300px ;
+    margin-bottom: 30px;
+}
+.bolum3 .hover-efekt {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #6e8a0a;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    transition: 0.5s ;
+}
+.bolum3 .hover-efekt i {
+    font-size: 1.5rem;
+    padding: 15px;
+    border: 2px solid #fff;
+    border-radius:100% ;
+    background-color: #fff;
+    color: #6e8a0a;
+    cursor: pointer;
+   
+}
+.bolum3 .kapsayıcı:hover .hover-efekt {
+    opacity: 0.8;
+}
+
+.bolum4 {
+    padding: 80px 0;
+    background: url(./img4/blog-bg.png);
+    background-size: cover;
+}
+.bolum4 h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.bolum4 img {
+    width: 100%;
+    position: relative;
+    
+    
+}
+.bolum4 .col-lg-12 img {
+    width: 100%;
+  
+}
+.bolum4  .resim {
+    position: relative;
+
+}
+.bolum4 .col-lg-12:nth-child(2) {
+    margin-top: 27px;
+}
+
+.bolum4 .resimyazi {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    transition: 0.5s;
+}
+.bolum4 .resim:hover .resimyazi {
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+.bolum4 .resimyazi h4:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.bolum4 .resimyazi p {
+    padding: 0;
+    margin:3px ;
+}
+
+
+.bolum5 {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.bolum5 .etiket p{
+    font-size: 30px;
+    font-weight: 700;
+    color: #a2cf8d;
+}
+.bolum5 .etiket span {
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #7a7a7a;
+}
+.bolum5 .etiket {
+    background: #F8F9FC;
+    padding: 30px;
+}
+
+
+.bolum6 {
+    background: url(./img4/contact-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.bolum6 h3 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.bolum6 hr {
+    width: 80px;
+    border: 2px solid white;
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 80px;
+    
+}
+.bolum6 img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.bolum6 input {
+    background-color: rgba(250, 250, 250,0.1);
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.bolum6 textarea {
+    background-color: rgba(250, 250, 250,0.1);
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 220px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.sonbolum {
+background: black;
+padding: 30px 30px;
+}
+.sonbolum p {
+    color: #fff;
+}
+.sonbolum i {
+font-size: 1.5rem;
+    color: black;
+    margin: 10px;
+    border: 1px solid #648860;
+    border-radius: 50%;
+    background-color: #648860;
+    padding:6px ;
+}
+
+
