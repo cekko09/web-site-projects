@@ -1,0 +1,251 @@
+/* GENERAL STYLING */
+html { scroll-behavior: smooth; }
+*::-webkit-scrollbar { width: 3px; background-color: #eee; } 
+*::-webkit-scrollbar-track { background-color: #ccc; width:1px; border:1px solid #fff; }
+*::-webkit-scrollbar-button { display: none; }
+*::-webkit-scrollbar-thumb { background-color: #000; }
+
+.btnScrollUp {cursor: pointer;position: fixed;right: 20px;bottom: 10px;width: 40px;height: 40px;
+	background: url(../img/btnYukariGit.png) no-repeat center center;background-size: contain; }
+
+
+	.navbar {border-bottom: #1886c7 4px solid;}
+	.navbar .navbar-brand {color: #1886C7;
+		font-size: 22px;
+	}
+	.bg-dark {
+		background-color: rgba(0,0, 0,1) !important;
+
+	}
+	.nav-link {
+		transition: color .5s ease !important;
+	}
+	
+	.nav-link:hover  {
+		color: #1886C7 !important;
+	}
+
+	/*HEader section */
+
+	#header {
+		background: url("../img/bg-header.jpg") no-repeat center center fixed;
+		height: 100vh;
+		background-size: cover;
+	}
+	#header .overlay {
+		background-color: rgba(0, 0, 0, .7);
+
+	}
+	#header .row {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#header span {
+		color: #1886c7;
+	} 
+	/* features */
+	#features {
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+	#features .card {
+		padding: 20px 0;
+		margin-bottom: 10px;
+		border: none;
+		transition: top 0.5s;
+		top: 0;
+		opacity: 1;
+	}
+	#features .card:hover {
+		cursor: pointer;
+		position: relative;
+		top: -10px;
+		
+	}
+	#features h3 {
+		color: #007ECA;
+		font-size: 1.1rem;
+		letter-spacing: 1px;
+	}
+	#features p {
+		font-size: .9rem;
+		font-style: italic;
+		
+	}
+	#features i {
+
+		color: #007ECA;
+		font-size: 3rem !important;
+		
+	}
+
+
+@keyframes up {
+	from{top: 0;}
+	to{top: -10px;}
+}
+
+	/* our history */
+
+#our-history {
+	margin-bottom: 80px;
+}
+
+	 #our-history h3 {
+		 color: #1886C7;
+		 font-weight: 400;
+		 margin-bottom: 20px;
+		 
+	 }
+	 #our-history .cizgi {
+		width: 5px;
+		position: relative;
+		bottom: -10px;
+		margin-right: 10px;
+		height: 40px;
+		background-color:#1886C7 ;
+	}
+	
+	#our-history p {
+	font-style: italic;
+	letter-spacing: 1px;
+
+		
+	}
+
+	/* TEAM */
+
+	#team {
+		padding-top: 50px;
+		margin-bottom: 80px;
+	}
+	#team img {
+		border-radius: 50%;
+
+	}
+	#team .col-lg-3 p  {
+		font-style: italic;
+		
+	}
+	#team h4 {
+color: #767575;
+font-style: italic;
+font-size: 1.3rem;
+	}
+	#team .isim  {
+		margin-top: 20px;
+		font-size: .9rem;
+
+	}
+
+	#team i {
+		font-size: 1.5rem;
+		color: #0071FF;
+		margin: 20px;
+	}
+	/* what we do */
+
+	#whatwedo {
+		background: linear-gradient(
+			rgba(0,0,0,.7),
+			rgba(0,0,0,.7)
+		),
+		url(../img/bg-code.jpg) fixed center center no-repeat;
+		background-size: cover;
+	
+		padding: 80px;
+	}
+
+	/* OUR STUDY */
+
+	#ourstudy {
+		padding-top:170px ;
+		background-color: #F4F3F9;
+		padding-bottom: 50px;
+	}
+	#ourstudy i {
+		color: #0071FF;
+		font-size: 2.5rem;
+		margin-bottom: 30px;
+	}
+	 #ourstudy h3 {
+		 font-weight: 350;
+		 color: #0071FF;
+		 margin-bottom: 30px;
+		 font-style: italic;
+		font-size: 1.4rem;
+		}
+	 #ourstudy p {
+		letter-spacing: 1px;
+		line-height: 35px;
+		font-size: 1rem;
+	 }
+	 #ourstudy .card {
+		 background: #fff;
+		 padding: 40px;
+		 z-index: 99;
+		 position: relative;
+		 width: 100%;
+		
+		 left: 30px;
+	 }
+	 #ourstudy img {
+		 position: relative;
+		 top: -50px;
+		 left: -30px;
+	 }
+
+
+	 /* GALERİ */
+
+	 #portfolio {
+	
+		background-color:#f4f4f4 ;
+	 }
+	 
+	 #portfolio .fa-fa-search-plus {
+		 font-size: 24px ;
+		 margin-bottom: 20px;
+		
+	 }
+	 #portfolio h3 {
+		 font-size: 24px;
+		 font-weight: 400;
+	 }
+	 #portfolio p {
+		 font-size: 16px;
+		 font-weight: 300;
+	 }
+	 #portfolio .imageContainer {
+		 position: relative;
+		 cursor: pointer;
+	 }
+	 .imageOverlay {
+
+		position: absolute;
+		top: 0; bottom: 0; left: 0; right: 0;
+		height: 100%;
+		background: #1886C7;
+		opacity: 0;
+		transition: all 1s ease;
+	 }
+	 #portfolio .imageOverlay:hover {
+		 opacity: 0.7;
+	 }
+	 .imageText {
+		position: absolute;
+		top: 50%;
+		
+		left: 50%;
+		transform: translate(-50%,-50%);
+	 
+	}
+	#portfolio img {
+		margin: 0!important;
+		padding: 0 !important;
+	}
+	#portfolio i {
+		font-size: 1.5rem;
+	}
