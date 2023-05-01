@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ .home{
+    display: flex;
+    align-items: center;
+ }
+ .logo{
+    width: 20% !important;
+    height: 140px !important;
+    display: inline-block;
+}
+
+
+.navbar {
+    padding: 0 !important;
+}
+.logo img{
+    width: 100% !important;
+    height: 100% !important;
+    animation: dondur 1s ;
+    border-radius: 50%;
+   
+
+}
+@keyframes dondur {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.logo i{
+    color: rgb(189,15,25);
+}
+.menu ul{
+    text-decoration: none;
+    margin: 10px;
+    margin-right: 40px !important;
+   
+}
+.menu ul li{
+    margin-left: 20px;
+    font-size: 15px;
+   
+}
+.menu ul li a{
+    color: rgb(189,15,25);
+    font-size: 25px ;
+    font-weight: 500;
+    font-family: 'Playball', cursive;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#slider{
+    background: url(resimler/slider2.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    height: 81vh;
+    text-align: center;
+    padding: 0 !important;
+}
+#slider .overlay {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(70%);
+    -webkit-backdrop-filter: brightness(60%);
+}
+#slider .overlay h1{
+    font-size: 90px !important;
+    color: #fff;
+    font-family: 'Playball', cursive;
+    letter-spacing: 3px;
+} 
+#slider .overlay h3{
+    font-size: 40px !important;
+    color: #fff;
+    font-family: 'Playball', cursive;
+    letter-spacing: 2px;
+
+}
+#slider .overlay a{
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white ;
+    margin-top: 20px !important;
+    transition: .2s;
+    font-family: 'Playball', cursive;
+    letter-spacing: 2px;
+
+}
+#slider .overlay a:hover{
+    background: white;
+    color: red;
+}
+
+#bolum1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+   overflow: hidden;
+}
+#bolum1 .hakkimizda-baslik h3 {
+    margin-bottom: 40px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+#bolum1 .hakkimizda-resim {
+    width: 100%;
+   height: 100%;
+    background:  url("/resimler/istiot-mekan.jpg");
+    background-position: center  !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border-radius: 5px;
+   
+}
+
+
+#bolum1 .hakkimizda-aciklama h4 {
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    color: rgb(192, 1, 1);
+    text-align: center;
+
+}
+#bolum1 .hakkimizda-aciklama p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+#bolum2 {
+    height: 400px;
+
+    background:  url("/resimler/arkaplan-siot-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: brightness(50%);
+
+    padding: 0;
+}
+#bolum2 .overlay2 {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bolum2 h5 {
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+
+    font-family: 'Playball', cursive;
+
+
+}
+
+#bolum2 .menu-buton {
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(219, 0, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+    font-family: 'Playball', cursive;
+    letter-spacing: 2px;
+}
+
+#bolum2 .menu-buton:hover {
+    background: #fff;
+    color: red;
+}
+.bolum3 {
+    padding: 0 !important;
+}
+.bolum3 .galeri {
+    padding: 25px;
+    text-align: center;
+    padding: 30px 0 30px 0 !important;
+    margin: 0 !important;
+    background-color: rgb(219, 0, 0);
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+
+}
+.bolum3 .galeri h3{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Playball', cursive;
+    color:#fff ;
+    margin: 0 !important; 
+    padding: 0 !important;
+    letter-spacing: 2px;
+}
+.bolum3 .galeri-resim{
+    width: 100%;
+    height: 290px;
+    overflow: hidden;
+}
+.bolum3 .col-md-3 ,  .col-sm-4 {
+    padding: 0 !important;
+}
+.bolum3 .galeri-resim img{
+    width: 100%;
+    height: 100% ;
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+    transition: .3s;
+}
+.bolum3 .galeri-resim img:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    transform: scale(120%);
+}
+.kapsayici {
+    width: 100%;
+}
+footer {
+    background-color: #222222;
+
+
+
+}
+footer .footer {
+    padding: 50px 0 30px 0;
+}
+footer .footer-baslik {
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Playball', cursive;
+    text-align: center;
+}
+
+footer .footer-sec-1 h6 {
+    font-size: 2.2rem;
+    color: #fff;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    letter-spacing: 3px;
+}
+footer .footer-sec-1 span {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Playball', cursive;
+}
+footer .footer-sec-1 p {
+    font-size: 1.5rem;
+    color: #c5c5c5;
+    letter-spacing: 2px;
+    font-family: 'Playball', cursive;
+}
+footer hr {
+    color: #fff;
+}
+
+footer .medya i {
+    color: #fff;
+    font-size: 3rem;
+    padding: 0 30px 0 30px;
+}
+
+footer .medya p {
+    color: rgb(219, 0, 0);
+    font-size: 3rem;
+    padding: 0 30px 0 30px;
+}
+.isot-lahmacun {
+    display: flex;
+    align-items: center;
+   background-color: black;
+   justify-content: center;
+}
+.isot-lahmacun p {
+    padding: 20px;
+    margin: 0 !important;
+    color: #fff;
+}
+
+.yukari {
+    position: fixed;
+    z-index: 99;
+    color: #fff;
+    padding: 8px 10px 8px 10px;
+    background-color: rgb(219, 0, 0) ;
+    border-radius: 5px;
+    right: 5%;
+    top: 80%;
+  transition: background-color  .3s;
+  border: 1px solid rgb(219, 0, 0);
+  
+   cursor: pointer;
+   display: none;
+}
+.yukari:hover {
+    background-color: #fff;
+    color:rgb(219, 0, 0) ;
+    border: 1px solid rgb(219, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+
+    #bolum2 h5 {
+        color: #fff;
+        font-size: 3rem;
+    text-align: center;
+        font-family: 'Playball', cursive;
+    
+    
+    }
+
+    #slider .overlay h1{
+        font-size: 50px !important;
+        color: #fff;
+    } 
+    #slider .overlay h3{
+        font-size: 25px !important;
+       
+    } 
+    #slider .overlay a{
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        border: 2px solid white ;
+        margin-top: 20px !important;
+        transition: .2s;
+    }
+}
